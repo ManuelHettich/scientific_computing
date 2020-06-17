@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../libpmp.a  CMakeFiles/pmp.dir/Shader.cpp.o CMakeFiles/pmp.dir/Window.cpp.o
+/usr/bin/ranlib ../../libpmp.a

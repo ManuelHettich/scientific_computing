@@ -1,0 +1,17 @@
+/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/CMakeFiles/glew.dir
+/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/glfw/CMakeFiles/rebuild_cache.dir
+/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/glfw/CMakeFiles/edit_cache.dir
+/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/glfw/src/CMakeFiles/rebuild_cache.dir
+/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/glfw/src/CMakeFiles/edit_cache.dir
+/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/glfw/src/CMakeFiles/glfw.dir
+/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/imgui/CMakeFiles/rebuild_cache.dir
+/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/imgui/CMakeFiles/edit_cache.dir
+/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/imgui/CMakeFiles/imgui.dir
+/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/pmp/CMakeFiles/rebuild_cache.dir
+/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/pmp/CMakeFiles/edit_cache.dir
+/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/pmp/CMakeFiles/pmp.dir
+/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
+/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/src/CMakeFiles/edit_cache.dir
+/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/src/CMakeFiles/diffusion.dir

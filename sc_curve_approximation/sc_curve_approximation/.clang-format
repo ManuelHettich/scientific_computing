@@ -1,0 +1,7 @@
+BasedOnStyle: Google
+IndentWidth: 2
+ColumnLimit: 80
+Standard: Cpp11
+SpacesInAngles: false
+AlignConsecutiveAssignments: true
+BreakBeforeBraces: Allman

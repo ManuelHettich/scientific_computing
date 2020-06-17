@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Diffusion"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\external\;CMake Files\external\glfw\;CMake Files\external\glfw\src\;CMake Files\external\imgui\;CMake Files\external\pmp\;CMake Files\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glew">
+				<Option output="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/libglew.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/include"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/deps"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glew/include"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/imgui"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/eigen"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/Makefile&quot;  VERBOSE=1 glew"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glew/fast">
+				<Option output="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/libglew.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/include"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/deps"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glew/include"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/imgui"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/eigen"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/Makefile&quot;  VERBOSE=1 glew/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/include"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/src"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/glfw/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/glfw/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/include"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/src"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/glfw/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/glfw/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="imgui">
+				<Option output="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/libimgui.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/imgui"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/include"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/deps"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glew/include"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/imgui"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/imgui/Makefile&quot;  VERBOSE=1 imgui"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/imgui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/imgui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/imgui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="imgui/fast">
+				<Option output="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/libimgui.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/imgui"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/include"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/deps"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glew/include"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/imgui"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/imgui/Makefile&quot;  VERBOSE=1 imgui/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/imgui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/imgui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/imgui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pmp">
+				<Option output="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/libpmp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/pmp"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/include"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/deps"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glew/include"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/imgui"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/eigen"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/pmp/Makefile&quot;  VERBOSE=1 pmp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/pmp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/pmp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/pmp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pmp/fast">
+				<Option output="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/libpmp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/pmp"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/include"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/deps"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glew/include"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/imgui"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/eigen"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/pmp/Makefile&quot;  VERBOSE=1 pmp/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/pmp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/pmp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/pmp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="diffusion">
+				<Option output="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/diffusion" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/include"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/deps"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glew/include"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/imgui"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/eigen"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 diffusion"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="diffusion/fast">
+				<Option output="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/diffusion" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/include"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/deps"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glew/include"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/imgui"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/eigen"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external"/>
+					<Add directory="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 diffusion/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/cmake-build-debug/external/glfw/src/glfw_config.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glew/include">
+			<Option target="glew"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glew/src/glew.c">
+			<Option target="glew"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/include/GLFW/glfw3.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/include/GLFW/glfw3native.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/src/context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/src/egl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/src/egl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/src/glx_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/src/glx_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/src/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/src/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/src/internal.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/src/linux_joystick.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/src/linux_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/src/mappings.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/src/monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/src/osmesa_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/src/osmesa_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/src/posix_thread.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/src/posix_thread.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/src/posix_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/src/posix_time.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/src/vulkan.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/src/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/src/x11_init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/src/x11_monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/src/x11_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/src/x11_window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/src/xkb_unicode.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/src/xkb_unicode.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/imgui/imconfig.h">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/imgui/imgui.cpp">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/imgui/imgui.h">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/imgui/imgui_demo.cpp">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/imgui/imgui_draw.cpp">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/imgui/imgui_glfw.cpp">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/imgui/imgui_glfw.h">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/imgui/imgui_internal.h">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/imgui/lato-font.h">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/imgui/stb_rect_pack.h">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/imgui/stb_textedit.h">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/imgui/stb_truetype.h">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/pmp/MatVec.h">
+			<Option target="pmp"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/pmp/Shader.cpp">
+			<Option target="pmp"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/pmp/Shader.h">
+			<Option target="pmp"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/pmp/Timer.h">
+			<Option target="pmp"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/pmp/Window.cpp">
+			<Option target="pmp"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/pmp/Window.h">
+			<Option target="pmp"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/pmp/gl.h">
+			<Option target="pmp"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/src/HeatEquationViewer.cpp">
+			<Option target="diffusion"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/src/HeatEquationViewer.h">
+			<Option target="diffusion"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/src/heat.cpp">
+			<Option target="diffusion"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/src/rainbow.h">
+			<Option target="diffusion"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/src/types.h">
+			<Option target="diffusion"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glfw\"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/imgui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\imgui\"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/external/pmp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\pmp\"/>
+		</Unit>
+		<Unit filename="/media/sf_CS/git/koi_0x4249/SS20/WR/sc_heat_equation/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

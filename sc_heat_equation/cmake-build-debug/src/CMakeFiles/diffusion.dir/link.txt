@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -Wno-deprecated-declarations -ggdb -g  -rdynamic CMakeFiles/diffusion.dir/HeatEquationViewer.cpp.o CMakeFiles/diffusion.dir/heat.cpp.o  -o ../diffusion  ../libglew.a ../libpmp.a -lGL -lGLU ../libglew.a ../libimgui.a ../libglfw3.a -lrt -lm -ldl -lX11 -lpthread 
